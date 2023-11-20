@@ -16,7 +16,6 @@ body {
     padding: 1em;
     text-decoration: none;
     color: green;
-    padding-right: 50px;
 }
 
 .menu {
@@ -30,18 +29,18 @@ body {
 }
 
 .logo {
-    padding-left: 50px;
 }
 
 .section-um {
     display: flex;
     justify-content: center;
     text-align: center;
+    padding-top: 30px;
 
 }
 
 .cartao {
-    padding: 1em;
+    padding: 2em;
 }
 
 .itens-cartao {
