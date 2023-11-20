@@ -22,7 +22,7 @@ body {
 .menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .titulo {
@@ -31,4 +31,21 @@ body {
 
 .logo {
     padding-left: 50px;
+}
+
+.section-um {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.cartao {
+    padding: 1em;
+}
+
+.itens-cartao {
+    background-color: #343434;
+    border-radius: 10px;
+    padding: 10px;
 }
