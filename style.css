@@ -53,3 +53,33 @@ body {
     width: 100%;
     height: 400px;
 }
+
+.produtos {
+    padding-top: 50px;
+}
+
+.texto-produto {
+    color: white;
+    padding-left: 10px;
+}
+
+.preco {
+    padding-left: 10px;
+    color: white;
+}
+
+.cartao-produtos {
+    width: 225px;
+    border: solid 1px;
+    color: #343434;
+}
+
+.comprar {
+    width: 200px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 20px;
+    color: aquamarine;
+}
