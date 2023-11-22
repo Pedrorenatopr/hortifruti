@@ -39,6 +39,17 @@ body {
 
 }
 
+.entrega {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.texto-entrega {
+    padding-left: 10px;
+}
+
 .cartao {
     padding: 2em;
 }
@@ -52,9 +63,11 @@ body {
 .baner {
     width: 100%;
     height: 400px;
+    padding-top: 50px;
 }
 
 .section-dois {
+    padding-top: 70px;
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15% ;
     justify-content: center;
@@ -94,5 +107,6 @@ body {
     margin-left: 10px;
     font-size: 20px;
     background-color: green;
+    color: white;
     border: none;
 }
