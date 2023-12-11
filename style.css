@@ -127,6 +127,10 @@ body {
     display: none;
 }
 
+.banner-mobile {
+    display: none;
+}
+
 @media screen and (max-device-width: 700px)  {
 
     .menu-item {
@@ -176,5 +180,31 @@ body {
 
     .titulo {
         display: none;
+    }
+
+    .section-um {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 30px;
+    
+    }
+
+    .cartao {
+        padding: 1em;
+    }
+
+    .baner {
+        display: none;
+        padding-top: 50px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .banner-mobile {
+        display: block;
+        padding-top: 50px;
     }
 }
