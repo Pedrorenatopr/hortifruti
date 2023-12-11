@@ -210,4 +210,26 @@ body {
         display: block;
         padding-top: 50px;
     }
+
+    .section-dois {
+        padding-top: 70px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+    }
+
+    .cartao-produtos {
+        width: 170px;
+        border: solid 1px;
+        color: #343434;
+    }
+
+    .img-card {
+        width: 170px;
+    }
+
+    .comprar {
+        width: 150px;
+        margin-left: 10px;
+    }
 }
