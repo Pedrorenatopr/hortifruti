@@ -163,6 +163,8 @@ body {
     .botao-teste {
         display: flex;
         justify-content: end;
+        padding-top: 10px;
+        padding-right: 10px;
     }
 
 
@@ -174,6 +176,7 @@ body {
     .logo-mobile {
         position: absolute;
         display: flex;
+        padding-left: 10px;
     }
 
     .titulo-mobile {
