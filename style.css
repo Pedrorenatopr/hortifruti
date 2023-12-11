@@ -149,6 +149,9 @@ body {
 
     .botao {
         display: block;
+        color: green;
+        background: none;
+        border: none;
         
     }
 
