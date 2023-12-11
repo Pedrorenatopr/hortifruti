@@ -131,6 +131,11 @@ body {
     display: none;
 }
 
+.copy {
+    text-align: center;
+    padding-top: 50px;
+}
+
 @media screen and (max-device-width: 700px)  {
 
     .menu-item {
