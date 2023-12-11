@@ -24,6 +24,10 @@ body {
     justify-content: space-around;
 }
 
+.botao {
+    display: none;
+}
+
 .titulo {
     padding: 1em;
 }
@@ -113,4 +117,64 @@ body {
     background-color: green;
     color: white;
     border: none;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+.titulo-mobile {
+    display: none;
+}
+
+@media screen and (max-device-width: 700px)  {
+
+    .menu-item {
+        margin-top: 20px;
+        display: inline-block;
+        padding: 1em;
+        text-decoration: none;
+        list-style: none;
+        list-style-type: none;
+    }
+    
+    .menu-lista {
+        display: none;
+        height: 100vh;
+    }
+
+    .botao {
+        display: block;
+        
+    }
+
+    .botao-teste {
+        display: flex;
+        justify-content: end;
+    }
+
+
+    .menu.mobile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-mobile {
+        position: absolute;
+        display: flex;
+    }
+
+    .titulo-mobile {
+        position: absolute;
+        display: flex;
+        padding-left: 100px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .titulo {
+        display: none;
+    }
 }
